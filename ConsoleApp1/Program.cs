@@ -11,11 +11,13 @@ employees.Add(emp2);
 employees.Add(emp3);
 
 // Write the name of employee whose skill is C#
+//test
 var names = employees.Where(e => e.Skills.Contains("C#")).Select(h=>h.Name).ToList();
 
 foreach (var name in names)
 {
-    Console.WriteLine(name);
+    //Console.WriteLine(name);
+
 }
 
 public class emp
