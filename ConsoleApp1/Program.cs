@@ -17,7 +17,7 @@ var names = employees.Where(e => e.Skills.Contains("C#")).Select(h=>h.Name).ToLi
 foreach (var name in names)
 {
     //Console.WriteLine(name);
-
+    //this comment from naveen kumar
 }
 
 public class emp
